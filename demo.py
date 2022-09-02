@@ -1,9 +1,9 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/arj')
 def hello():
-	return "arjun pv --"
+	return "arjun pv -- 1"
 
 
 if __name__ == "__main__":
